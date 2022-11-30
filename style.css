@@ -1,0 +1,78 @@
+body {
+  background: #2C2B3D;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h1, footer p, ul {
+  font-family: 'JetBrains Mono', monospace;
+  color: #FFFFFF;
+}
+
+span {
+  color: #00BFA6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1092px;
+  margin: 71px auto auto;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 64px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 77px;
+  width: 1092px;
+  height: 283px;
+  margin: 101px auto 157px;
+}
+
+h1 {
+  line-height: 40px;
+  font-size: 36px;
+  margin-bottom: 59px;
+  margin-top: 0;
+}
+
+.texto p {
+  line-height: 28px;
+  font-size: 16px;
+  color: #C2C2C2;
+}
+
+
+hr {
+  width: 568px;
+  height: 0px;
+  border-color: #00BFA6;
+}
+
+footer p {
+  line-height: 28px;
+  font-size: 14px;
+  text-align: center;
+  margin: 27px 0 28px;
+}
+
+#cadeado {
+position: absolute;
+left: 20px;
+bottom: 20px;
+}
